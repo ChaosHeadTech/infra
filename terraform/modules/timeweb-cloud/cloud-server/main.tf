@@ -1,6 +1,7 @@
 resource "twc_server" "server" {
   name = var.name
   os_id = data.twc_os.os.id
+  cloud_init = var.cloud_init
 
   configuration {
     configurator_id = data.twc_configurator.configurator.id

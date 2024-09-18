@@ -52,7 +52,7 @@ variable "location" {
   default = "ru-1"
 }
 
-variable "cloud_init " {
+variable "cloud_init" {
   description = "Cloud-init script. If script requires external network you should use floating_ip_id field instead of twc_floating_ip.resource"
   type = string
 }
