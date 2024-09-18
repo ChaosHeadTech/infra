@@ -44,6 +44,7 @@ variable "disk_type" {
 variable "vpc_id" {
   description = "ID of the VPC to be attached to"
   type = string
+  default     = null
 }
 
 variable "location" {
